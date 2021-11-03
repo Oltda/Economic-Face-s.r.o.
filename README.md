@@ -6,7 +6,8 @@ The API's main function is to take care of sending confirmation emails to custom
 and notification emails to the school management.
 
 # Link
-https://provare-jihlava.herokuapp.com/
+You can visit the live website on the following link:
+http://www.economic-face.com/
 
 # Technologies
   - React.js
