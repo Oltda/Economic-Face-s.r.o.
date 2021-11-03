@@ -5,6 +5,9 @@ The project consists of a simple API in python and React.js app in frontend.
 The API's main function is to take care of sending confirmation emails to customers who sign up for a course 
 and notification emails to the school management.
 
+# Link
+https://provare-jihlava.herokuapp.com/
+
 # Technologies
   - React.js
   - HTML
