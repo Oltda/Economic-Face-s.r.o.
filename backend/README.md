@@ -44,41 +44,41 @@ This endpoint fetches data related to the selection of courses for economists
 
 sample: curl http://127.0.0.1:5000/text2
 
-  singleCardContent = [
-          {
-            "id": 1,
-            "url": "/kurzy/",
-            "nadpis": "Mzdové účetnictví",
-            "foto": "mzdove.jpg",
-            "cena": "10 990 Kč",
-            "trvani": "80 hodin",
-            "obsah": ["daň z příjmu",
-                      "daň z příjmu právnických osob",
-                      "daň z přidané hodnoty",
-                      "silniční daň",
-                      "daň z převodu nemovitostí",
-                      "spotřební daně",
-                      ]
-        },
-        {
-            "id": 2,
-            "url": "/kurzy/",
-            "nadpis": "Daňová evidence",
-            "foto": "dane.jpg",
-            "cena": "5 990 Kč",
-            "trvani": "40 hodin",
-            "obsah": ["daň z příjmu fyzických osob",
-                      "daň z příjmu právnických osob",
-                      "daň z přidané hodnoty",
-                      "silniční daň",
-                      "daň z nemovitosti",
-                      "daň dědická",
-                      "daň darovací",
-                      "daň z převodu nemovitostí",
-                      "spotřební daně",
-                      "daňový řád", ]
-        },
-        ]
+      singleCardContent = [
+              {
+                "id": 1,
+                "url": "/kurzy/",
+                "nadpis": "Mzdové účetnictví",
+                "foto": "mzdove.jpg",
+                "cena": "10 990 Kč",
+                "trvani": "80 hodin",
+                "obsah": ["daň z příjmu",
+                          "daň z příjmu právnických osob",
+                          "daň z přidané hodnoty",
+                          "silniční daň",
+                          "daň z převodu nemovitostí",
+                          "spotřební daně",
+                          ]
+            },
+            {
+                "id": 2,
+                "url": "/kurzy/",
+                "nadpis": "Daňová evidence",
+                "foto": "dane.jpg",
+                "cena": "5 990 Kč",
+                "trvani": "40 hodin",
+                "obsah": ["daň z příjmu fyzických osob",
+                          "daň z příjmu právnických osob",
+                          "daň z přidané hodnoty",
+                          "silniční daň",
+                          "daň z nemovitosti",
+                          "daň dědická",
+                          "daň darovací",
+                          "daň z převodu nemovitostí",
+                          "spotřební daně",
+                          "daňový řád", ]
+            },
+            ]
 
 GET /ucetnictvi'
 General:
