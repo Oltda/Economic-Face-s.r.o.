@@ -24,8 +24,8 @@ pip install -r requirements.txt
 To run the server, execute:
 
 ```bash
-export FLASK_APP=flaskr
-export FLASK_ENV=development
+set FLASK_APP=api.py
+set FLASK_ENV=development
 flask run
 ```
 ## API Endpoints and Expected Behavior
