@@ -33,7 +33,9 @@ flask run
 POST /objednat
 General:
 Sends email address, name of student and the course he/she signed up for
-Sample: Example: curl http://127.0.0.1:5000/objednat -X POST -H "Content-Type: application/json" -d'{"first_name":"John", "last_name":"Smith", "starting_date":"2021-11-03", "course_name":"Mzdové účetnictví", "email":"example@example.com"}
+
+Sample: 
+curl http://127.0.0.1:5000/objednat -X POST -H "Content-Type: application/json" -d'{"first_name":"John", "last_name":"Smith", "starting_date":"2021-11-03", "course_name":"Mzdové účetnictví", "email":"example@example.com"}
 
 
 GET /text2'
