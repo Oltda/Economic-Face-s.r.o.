@@ -1,0 +1,38 @@
+.slick-arrow {
+}
+
+.slick .slick-prev:before,
+.slick .slick-next:before {
+  font-size: 70px;
+  color: thistle;
+}
+
+.slick .slick-arrow {
+  z-index: 100;
+}
+
+.slick .slick-arrow.slick-prev {
+  left: -150px;
+}
+
+.slick .slick-arrow.slick-next {
+  right: -80px;
+}
+
+.slick {
+  min-width: 400px;
+  width: 60%;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .slick {
+    display: none;
+  }
+
+
+}

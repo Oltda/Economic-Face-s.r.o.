@@ -1,0 +1,60 @@
+.upper-fold.vyukove {
+  height: 80vh !important;
+  background-size: cover;
+  background-image: url("./images/books.jpg");
+}
+
+.vyukove-heading {
+  text-align: center;
+  top: 10% !important;
+  position: relative;
+  font-size: 45px;
+}
+
+.slider-container {
+  position: relative;
+  margin: auto;
+  top: 20% !important;
+  font-size: 20px !important;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.upper-text.vyuk {
+  font-size: 28px;
+
+  height: 220px;
+}
+
+.kurzy-wrap-vyukove {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kurzy-wrap-vyukove h1 {
+  text-align: center;
+}
+
+.kurzy-wrap-vyukove p {
+  width: 100%;
+  font-size: 24px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .vyukove-heading {
+    top: 25% !important;
+  }
+
+  .kurzy-wrap-vyukove {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}

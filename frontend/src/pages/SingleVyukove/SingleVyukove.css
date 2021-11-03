@@ -1,0 +1,211 @@
+.single-vyuk-cont {
+  margin-top: 10vh !important;
+  position: relative;
+}
+
+.sg-img {
+  width: 300px;
+  height: 250px !important;
+}
+
+.photo-text-wrap {
+  height: 100vh;
+
+  top: 20vh !important;
+  position: relative;
+  width: 100%;
+}
+
+.txt-wrap-vyuk {
+  border-radius: 10px;
+  width: 60% !important;
+
+  /* background: rgb(174, 199, 238);
+  background: radial-gradient(
+    circle,
+    rgba(174, 199, 238, 1) 0%,
+    rgba(148, 194, 233, 1) 100%
+  ); */
+  background-color: #666666;
+  color: white;
+  display: block;
+  vertical-align: top;
+  min-width: 300px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+.txt-wrap-vyuk.first {
+  background: transparent;
+  /* border: 1px solid black; */
+  height: 45% !;
+
+  margin-bottom: 4%;
+  width: 60% !important;
+
+  /* margin-right: 8% !important; */
+  display: block;
+  margin: auto;
+}
+
+.promo-text {
+  text-align: center;
+  font-size: 25px;
+  line-height: 22px;
+  color: #00008b;
+  width: 100% !important;
+  display: inline-block;
+  position: relative;
+}
+
+.idea-img {
+  height: 100px;
+  width: 100px;
+  margin-right: 5%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2%;
+}
+
+.fa-ul li {
+  margin-bottom: 15px;
+}
+
+.descr-bubble {
+  padding: 5px;
+  width: 50%;
+  /* background-color: darkcyan; */
+  right: 0px;
+  font-size: 18px;
+  display: inline-block;
+  border-left: 2px solid white;
+  padding-left: 40px;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.single-heading {
+  top: 30vh !important;
+  color: white;
+  width: 100%;
+  font-size: 55px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+  /* height: 100%; */
+
+  text-align: center;
+  margin-right: 5vh;
+}
+
+.upper-fold {
+  height: 100vh;
+  background-image: url("./images/education.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  opacity: 1;
+  width: 100% !important;
+  padding-top: 100px;
+}
+
+.lower-fold {
+  margin-top: 2% !important;
+  margin-bottom: 5% !important;
+  width: 90%;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .upper-fold {
+    height: 100vh;
+   
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-size: cover;
+    opacity: 1;
+    width: 100% !important;
+    height: 90vh !important;
+  }
+  .descr-head-wrap {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .descr-bubble {
+    border: none;
+  }
+  .single-heading {
+    width: 100%;
+  }
+
+  .descr-bubble {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .txt-wrap-vyuk {
+    width: 100% !important;
+  }
+
+  .lower-fold {
+    width: 90%;
+  }
+  .txt-wrap-vyuk.first {
+    background: transparent;
+    /* border: 1px solid black; */
+    width: 100% !important;
+    margin-bottom: 4%;
+  }
+
+  .promo-text {
+    text-align: center;
+    width: 100% !important;
+    font-size: 18px;
+    /* background: chocolate; */
+  }
+  .idea-img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .descr-head-wrap {
+    width: 100% !important;
+    height: 40% !important;
+  }
+
+  .single-heading {
+    vertical-align: top;
+    width: 100%;
+    font-size: 45px;
+  }
+
+  .descr-bubble {
+    font-size: 12px;
+    width: 100%;
+    font-size: 11px;
+    border-left: none;
+    padding-left: 0px;
+
+    color: transparent;
+  }
+
+  .upper-fold {
+    background-size: cover;
+    padding-top: 0px;
+    height: 45vh !important;
+  }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* iPhone 5 only */
+  #root {
+    width: 100% !important;
+  }
+}

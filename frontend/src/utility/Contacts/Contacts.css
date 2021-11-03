@@ -1,0 +1,30 @@
+.footer {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  bottom: 0px !important;
+  background: rgb(105,105,105);
+  background: radial-gradient(circle, rgba(105,105,105,1) 0%, rgba(176,164,158,1) 100%);
+}
+
+.footer-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.column {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+
+.column p {
+  width: 300px;
+}
+
+.atrb {
+  margin-top: 50px !important;
+  width: 400px;
+  margin: auto;
+}

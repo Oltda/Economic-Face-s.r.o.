@@ -1,0 +1,241 @@
+/* .single-course-cont {
+  border: 3px solid red;
+  height: 130vh;
+    margin-top: 10vh !important;
+  position: relative;
+}
+
+.sg-img {
+  width: 30%;
+  height: 100% !important;
+}
+
+.photo-text-wrap {
+  height: 60vh;
+  border: 1px solid black;
+  top: 10vh !important;
+  position: relative;
+
+  border: 3px solid green;
+}
+
+.txt-wrap {
+  display: inline-block;
+  border: 1px solid black;
+  height: 100% !important;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+.reservation-cont {
+  display: block;
+  background: cyan;
+  height: 40vh;
+  margin-top: 20vh;
+  position: relative;
+}
+
+.name-surname {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.name-surname label {
+  display: block;
+}
+
+.email {
+  display: block;
+}
+
+.datum-nastupu {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+}
+ */
+
+ .single-vyuk-cont {
+  margin-top: 10vh !important;
+  position: relative;
+}
+
+.single-course-cont {
+  margin-top: 10vh !important;
+  position: relative;
+}
+
+.sg-img {
+  width: 300px;
+  height: 250px !important;
+}
+
+.photo-text-wrap {
+  height: 100vh;
+
+  top: 20vh !important;
+  position: relative;
+  width: 100%;
+}
+
+.txt-wrap-course {
+  border-radius: 10px;
+  width: 45% !important;
+
+  background: rgb(174, 199, 238);
+  background: radial-gradient(
+    circle,
+    rgba(174, 199, 238, 1) 0%,
+    rgba(148, 194, 233, 1) 100%
+  );
+
+  display: block;
+
+  min-width: 300px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  font-size: 22px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+.okruhy-heading {
+  text-align: center;
+  font-size: 40px;
+  color: #396a93;
+}
+
+.first {
+  margin-right: 10%;
+}
+
+.fa-ul li {
+  margin-bottom: 15px;
+}
+
+.descr-bubble {
+  padding: 5px;
+  width: 50%;
+  right: 0px;
+  font-size: 18px;
+  display: inline-block;
+  border-left: 2px solid white;
+  padding-left: 40px;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.single-heading.rekval {
+  top: 30vh !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  font-size: 55px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+
+  text-align: center;
+  margin-right: 5vh;
+}
+
+.upper-fold-rekval {
+  height: 100vh;
+  background-image: url("./images/rekvalifikace.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  opacity: 1;
+  width: 100% !important;
+  height: 90vh !important;
+  /* padding-top: 100px; */
+}
+
+.lower-fold {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .descr-head-wrap {
+    width: 100% !important;
+    margin: auto;
+  }
+
+  .descr-bubble {
+    border: none;
+  }
+  .single-heading {
+    width: 100%;
+  }
+
+  .descr-bubble {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .txt-wrap-course {
+    width: 100% !important;
+    /* background: chocolate; */
+  }
+
+  .lower-fold {
+    width: 90%;
+  }
+
+  .upper-fold-rekval {
+    height: 100vh;
+   
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-size: cover;
+    opacity: 1;
+    width: 100% !important;
+    height: 90vh !important;
+    /* padding-top: 100px; */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .descr-head-wrap {
+    width: 100% !important;
+    height: 40% !important;
+  }
+
+  .single-heading.rekval {
+    vertical-align: top;
+    width: 100%;
+    font-size: 25px;
+  }
+  .okruhy-heading {
+    font-size: 25px;
+  }
+
+  .descr-bubble {
+    font-size: 12px;
+    width: 100%;
+    font-size: 11px;
+    border-left: none;
+    padding-left: 0px;
+
+    color: transparent;
+  }
+
+  .upper-fold-rekval {
+    background-size: cover;
+    padding-top: 0px;
+    height: 45vh !important;
+  }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+  #root {
+    width: 100% !important;
+  }
+}

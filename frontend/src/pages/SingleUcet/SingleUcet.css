@@ -1,0 +1,174 @@
+.single-vyuk-cont {
+  margin-top: 10vh !important;
+  position: relative;
+}
+
+.single-course-cont {
+  margin-top: 10vh !important;
+  position: relative;
+}
+
+.sg-img {
+  width: 300px;
+  height: 250px !important;
+}
+
+.photo-text-wrap {
+  height: 100vh;
+
+  top: 20vh !important;
+  position: relative;
+  width: 100%;
+}
+
+.txt-wrap-ucet {
+  border-radius: 10px;
+  width: 45% !important;
+  margin: auto;
+  font-size: 20px;
+  background-color: #6495ed;
+  margin: auto;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 300px;
+  /* margin-bottom: 20px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ucet-icon-wrap {
+  /* border: 1px solid black; */
+  width: 40%;
+
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.ucet-icon-wrap i {
+  margin-left: 40%;
+}
+.fa-ul li {
+  margin-bottom: 15px;
+}
+
+.descr-bubble {
+  padding: 5px;
+  width: 50%;
+  right: 0px;
+  font-size: 18px;
+  display: inline-block;
+  border-left: 2px solid white;
+  padding-left: 40px;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.single-heading-ucet {
+  top: 30vh !important;
+  color: white;
+  width: 100%;
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+  font-weight: bold;
+
+  text-align: center;
+  margin-right: 5vh;
+}
+
+.upper-fold-ucet {
+  height: 100vh;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  min-height: 500px;
+  width: 100% !important;
+  padding-top: 100px;
+}
+
+.lower-fold {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  width: 90%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .upper-fold-ucet {
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-size: cover;
+    opacity: 1;
+    width: 100% !important;
+    height: 90vh !important;
+  }
+
+  .ucet-icon-wrap {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+  .descr-head-wrap {
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .descr-bubble {
+    border: none;
+  }
+  .single-heading-ucet {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .descr-bubble {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .txt-wrap-ucet {
+    width: 100% !important;
+  }
+
+  .lower-fold {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .descr-head-wrap {
+    width: 100% !important;
+    height: 40% !important;
+  }
+
+  .single-heading-ucet {
+    vertical-align: top;
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .descr-bubble {
+    font-size: 12px;
+    width: 100%;
+    font-size: 11px;
+    border-left: none;
+    padding-left: 0px;
+
+    color: transparent;
+  }
+
+  .upper-fold-ucet {
+    background-size: cover;
+    padding-top: 0px;
+    height: 45vh !important;
+  }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+  #root {
+    width: 100% !important;
+  }
+}

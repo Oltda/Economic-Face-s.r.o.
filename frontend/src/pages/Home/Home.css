@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.home-main-wrap {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.backgound-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 90vh !important;
+  background-image: url("./images/business2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-heading {
+  position: relative;
+  text-align: center;
+  top: 20% !important;
+  font-size: 40px;
+}
+
+.str-img-logo {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 10% !important;
+  display: block;
+  margin: auto;
+  transform: translate(-50%);
+}
+
+.intro-text-wrap {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.kurzy-wrap-home {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.intro-text {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 22px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.home-img {
+  display: inline-block;
+  height: 15%;
+  width: 15%;
+  height: 210px;
+  width: 210px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.home-img.left {
+  display: none;
+}
+.home-img.right {
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+.intro-text-wrap h1 {
+  margin-top: 5vh !important;
+  margin-bottom: 5vh !important;
+  width: 70%;
+  margin: auto;
+}
+
+.logo2 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: auto !important;
+}
+
+.slider-heading {
+  text-align: center;
+}
+
+.slider-container-home {
+  margin-bottom: 50px;
+}
+
+.slide-text {
+  text-align: center;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.upper-text {
+  width: 80% !important;
+  min-height: 100px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.lower-text {
+  font-size: 18px;
+}
+
+.reference-row {
+  width: 450px;
+  display: inline-block;
+}
+
+.reference-row.lower {
+  margin-left: 150px;
+}
+
+.reference-table {
+  position: relative;
+  width: 1050px;
+  margin: auto;
+}
+
+.dividing-line {
+  border-top: 1px solid gray;
+  width: 90%;
+  height: 30px;
+  position: relative;
+  margin: auto;
+}
+
+.reference-stripe {
+  width: 100%;
+}
+
+.str-img {
+  height: 150px;
+  width: 150px;
+}
+
+.str-img.second {
+  margin-left: 150px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .reference-row {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .reference-row.lower {
+    margin-left: 0px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1408px) {
+  .upper-text {
+    font-size: 18px;
+  }
+
+  .home-img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .home-img.left {
+    display: block;
+  }
+
+  .home-img.right {
+    display: none;
+  }
+  .intro-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .upper-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home-heading {
+    font-size: 20px;
+  }
+  .reference-table {
+    width: 80%;
+  }
+
+  .upper-text {
+    font-size: 18px;
+  }
+
+  .slider-heading {
+    display: none;
+  }
+
+  .home-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .str-img-logo {
+    top: 20% !important;
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .intro-text-wrap {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .kurzy-wrap-home {
+    width: 100%;
+  }
+
+  .intro-text {
+    width: 100%;
+  }
+
+  .reference-table {
+    width: 100%;
+  }
+  .reference-row {
+    display: block;
+    width: 300px;
+  }
+  .str-img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
+  .str-img.second {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .kurzy-wrap-home {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-text {
+    width: 100% !important;
+    font-size: 18px;
+  }
+}
